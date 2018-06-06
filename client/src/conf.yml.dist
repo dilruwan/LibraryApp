@@ -1,0 +1,4 @@
+version: 1.0.0
+appName : Library App
+server:
+    host: http://localhost:8000

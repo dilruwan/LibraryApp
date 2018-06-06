@@ -1,0 +1,153 @@
+body {
+    padding-top: 0px;
+}
+
+/* navbar */
+.navbar .navbar-brand {
+    color: #d7dfe2;
+
+}
+.nav-item.active {
+    font-weight: bold;
+    color: white;
+}
+
+.dropdown-item:active {
+    background-color: #767a7d;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.page-content {
+    margin-top: 65px;
+}
+
+.navbar .dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    background-color: #f7f7f7;
+}
+
+/* list */
+
+.title-bar {
+    background-color: #eaeaea;
+    padding: 8px 5px 8px 15px;
+    margin-top: 0px;
+    max-height: 40px;
+    font-weight: bold;
+}
+
+.title-bar .btn {
+    margin-top: -4px;
+}
+
+.bootcards-list,
+.form-ui {
+    padding-top: 15px;
+}
+
+.list-group-item {
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #f5f5f7;
+}
+
+.list-group-item .list-icon {
+    color: #303031;
+}
+
+.list-group-item .list-heading {
+    color: #2a2a2b;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+}
+
+.list-group-item .list-sub-heading {
+    color: #585761;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.list-group-item .list-description {
+    color: #afb0b5;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.no-item-text {
+    color: #807979;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* form */
+
+.required-label {
+    color: #ef4444;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+a:not([href]):not([tabindex]).btn-blue {
+    color: white;
+    width: 100px;
+}
+
+a:not([href]):not([tabindex]).btn-red {
+    color: white;
+    width: 100px;
+    background-color: #f54e4e;
+}
+
+a.btn-blue:hover {
+    font-weight: bold;
+    background-color: #1969bf;
+}
+
+a.btn-red:hover {
+    font-weight: bold;
+    background-color: #fb4b4b;
+}
+
+.input-error-message {
+    color: #ef4444;
+    font-size: 11px;
+}
+
+.login-form {
+    margin-top: 50px;
+}
+
+
+/* Alert */
+
+.alert {
+    position: fixed;
+    top: 60px;
+    margin: 0 auto;
+    left: 15%;
+    right: 15%;
+    z-index: 1050;
+    padding: 10px;
+}
+
+.home-page-text {
+    color: #64686d;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.pagination {
+    margin-top: 10px;
+}

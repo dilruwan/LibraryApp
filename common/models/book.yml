@@ -1,0 +1,63 @@
+name: book
+fields:
+    id:
+        name: id
+        label: ID
+        type: int
+        required: true
+        editable: false
+        system: true
+    uid:
+        name: uid
+        label: UID
+        type: string
+        length: [3, 50]
+        required: true
+        editable: false
+        system: true
+    title:
+        name: title
+        label: Title
+        type: string
+        length: [1, 200]
+        pattern: ^[A-Za-z\s\.\-]+$
+        errorMessage: allow alphabetic characters, spaces, dot(.) and hyphen(-) only
+        required: true
+    author:
+        name: author
+        label: Author
+        type: string
+        length: [1, 300]
+        pattern: ^[A-Za-z\s\.]+$
+        errorMessage: allow alphabetic characters, spaces and dot(.) only
+        required: true
+    isbn:
+        name: isbn
+        label: ISBN
+        type: string
+        length: [10, 20]
+        pattern: ^[A-Za-z0-9\s\:\-]+$
+        errorMessage: allow alphanumeric, spaces, colon(:) and hyphen(-)  only
+        required: true
+    first_published_year:
+        name: first_published_year
+        label: First Published Year
+        type: string
+        length: 4
+        pattern: ^[0-9]{4}$
+        errorMessage: allow 4 digit number only
+        required: true
+    publisher:
+        name: publisher
+        label: Publisher
+        type: string
+        length: [0, 100]
+        pattern: ^[A-Za-z\s\.]+$
+        errorMessage: allow alphabetic characters, spaces and dot(.) only
+    book_type:
+        name: book_type
+        label: Book Type
+        type: string
+        length: [0, 100]
+        pattern: ^[A-Za-z\s\.]+$
+        errorMessage: allow alphabetic characters, spaces and dot(.) only
